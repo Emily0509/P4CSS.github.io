@@ -1,0 +1,115 @@
+#banner {
+    background-color: beige;
+    width:800px;
+    height:100px;
+    clear:both;
+    position:fixed;
+}
+#nav{
+        color:cornflowerblue;
+    font-weight: 500;
+    width: 100px;
+    height:200px;
+    position:fixed;
+    margin-left:-100px;
+}
+#content{
+    background-color: mediumaquamarine;
+    width: 600px;
+    height: auto;
+    float:left;
+    margin-top:100px;
+}
+#supporting{
+    background-color: bisque;
+    width: 100px;
+    height: 150px;
+    float:left;
+}
+#footer{
+    background-color: cadetblue;
+    width: 800px;
+    height: 50px;
+    clear:both;
+    margin-bottom:0 auto;
+}
+body{
+    margin:0;
+    padding:0;
+}
+#content, #nav, #supporting{
+    margin-top:100px;
+}
+
+#wrapper{
+    width:800px;
+    margin:0 auto;
+    }
+
+#nav ul{
+    padding-left:5px;
+}
+.container{
+    padding=10px;
+}
+/*     class可以選多個不同div中class代號相同的*/
+
+
+#practice, #name, #self{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+li{
+    list-style: none;
+}
+
+div#nav li{
+    display:block;
+    background-color:red;
+    margin-top:5px;
+    padding:2px;
+/*    margin:5px;*/
+    text-align:center;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,2);
+    border-radius:5px;
+}
+
+div#nav li a {
+    color:black;
+    text-decoration:none;
+}
+div#nav li:hover{
+    background-color:pink;
+}
+
+
+
+/*
+#nav > div > ul > li> a{
+    color:yellowgreen;
+    background-color:dodgerblue;
+}
+*/
+
+#banner li{
+    display:inline;
+    font-size:70%; 
+}
+
+#banner li a:link{
+    color:olivedrab;
+}
+#banner li a:visited{
+    color:olivedrab;
+}
+#banner li a:hover{
+    color:white;
+}
+#banner h1{
+    margin-top:10px;
+}
+#banner ul{
+    margin-top:10px;
+    margin-bottom:10px;
+}
